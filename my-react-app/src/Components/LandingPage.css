@@ -1,0 +1,14 @@
+/* Set the background image and make it cover the entire page */
+body, html {
+    height: 100vh;
+    margin: 0; /* Remove default body and html margin */
+    padding: 0; /* Remove default body and html padding */
+  }
+  
+  body {
+    background-image: url('../Images/Janitzio.jpg'); /* Adjust the path as needed */
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
